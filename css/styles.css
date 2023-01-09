@@ -1,5 +1,5 @@
 body {
-    font-family: 'roboto' sans-serif;   
+    font-family: 'roboto', sans-serif;   
 }
 .list {
     list-style: none;
@@ -47,12 +47,15 @@ body {
     color: #2E2F42;
 }
 .header-mail {
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    
 }
 .header-tel {
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -64,8 +67,9 @@ body {
     background: #2E2F42;
 }
 .section-link-title {
+    width: 500px;
     font-size: 56px;
-    line-height: 0.11;
+    line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -176,4 +180,78 @@ background: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
+}
+.all-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #404BBF;
+}
+.website-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+.app-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+.design-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+.marketing-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+.about {
+    background: #FFFFFF;
+}
+.about-suptitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:  #2E2F42;  
+}
+.about-subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
