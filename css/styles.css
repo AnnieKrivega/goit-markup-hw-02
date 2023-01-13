@@ -7,6 +7,17 @@ body {
 .link {
     text-decoration: none;
 }
+.link:hover {
+    color: #404BBF;
+}
+.btn:hover{
+    color: #FFFFFF;
+    background: #404BBF;
+}
+.active:hover{
+    color: #FFFFFF;
+    background: #404BBF;
+}
 .filter{
     cursor: pointer;
 }
@@ -49,7 +60,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #404BBF;
+    color: #2E2F42;
 }
 .header-mail {
 font-family: 'Roboto';
@@ -58,7 +69,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5px;
 letter-spacing: 0.02em;
-color: #404BBF;
+color: #2E2F42;
 }
 .header-tel {
 font-family: 'Roboto';
@@ -67,7 +78,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #404BBF;
+color: #2E2F42;
 }
 
 .section-link {
@@ -91,7 +102,9 @@ color: #404BBF;
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    background: #4D5AE5;
 }
+
 .hero {
 
 }
@@ -203,6 +216,7 @@ background: #2E2F42;
     text-align: center;
     letter-spacing: 0.02em;
 }
+
 .all-btn {
 font-family: 'Roboto';
 font-style: normal;
@@ -213,7 +227,8 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-color: #FFFFFF;
+color: #4D5AE5;
+background: #F4F4FD;
 }
 .website-btn {
     font-family: 'Roboto';
@@ -226,6 +241,7 @@ color: #FFFFFF;
     text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;  
+    background: #F4F4FD;
 }
 .app-btn {
     font-family: 'Roboto';
@@ -238,6 +254,7 @@ color: #FFFFFF;
     text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;    
+    background: #F4F4FD;
 }
 .design-btn {
     font-family: 'Roboto';
@@ -250,6 +267,7 @@ color: #FFFFFF;
     text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;    
+    background: #F4F4FD;
 }
 .marketing-btn {
     font-family: 'Roboto';
@@ -261,7 +279,8 @@ color: #FFFFFF;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;    
+    color: #4D5AE5;  
+    background: #F4F4FD;  
 }
 .about {
 }
