@@ -7,14 +7,17 @@ body {
 .link {
     text-decoration: none;
 }
-.link:hover {
+.pagination:hover,
+.pagination:focus {
     color: #404BBF;
 }
-.btn:hover{
+.btn:hover,
+.btn:focus{
     color: #FFFFFF;
     background: #404BBF;
 }
-.active:hover{
+.active:hover,
+.active:focus{
     color: #FFFFFF;
     background: #404BBF;
 }
